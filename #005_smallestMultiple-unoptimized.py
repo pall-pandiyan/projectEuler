@@ -36,13 +36,13 @@ def main(value):
 
     while needCorrection(value, current, table):
         if current < max1:
-            print(f"{current} {table} {min1} {max1}")
+            # print(f"{current} {table} {min1} {max1}")
             current = current+1
         else:
             current = max1
             break
 
-    print("Smallest product:", current)
+    print(f"Smallest product of {value} is {current}")
 
 
 if __name__ == "__main__":
@@ -51,3 +51,4 @@ if __name__ == "__main__":
 
 # Sample:
 
+# Smallest product of 10 is 2520
